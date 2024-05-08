@@ -44,7 +44,9 @@ input[type="text"]{
 .nav-ver{
     position: sticky;
     float: inline-end;
-    margin-top: 200px;
+    margin-right: 5px;
+    margin-top: 150px;
+    top: 96px;
 }
 
 .customer{
@@ -53,3 +55,94 @@ input[type="text"]{
     right: 0;
 }
 
+.landing{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 150px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox{
+    height: 350px;
+    background-color: #E5D8FF;
+    font-size: 21px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 20px;
+    width: 600px;
+    padding: 15px;
+    color: #6F7373;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.card{
+    margin: 15px;
+    height: 100px;
+    border: 0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+.scroll{
+    margin: 100px 100px 40px;
+    height: 75vh;
+    background-color: #483EFF;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    padding: 50px;
+}
+
+.card2{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    margin: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.message{
+    margin-top: 80px;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+
+}
